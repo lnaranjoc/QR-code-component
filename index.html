@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.ico">
+  <title>QR Code</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main> <!-- introducido el elemento "main" para cumplir con la regla "Page must have one main landmark". Main Landmarks pueden ser "header", "footer", "nav" (navigation) o "main" entre otros -->
+    <div class="container">
+      <div class="QR">
+        <img class="qr-code" src="images/image-qr-code.png" alt="qr-code">
+      </div>
+      <h1>Improve your front-end skills by building proyects</h1> <!-- modificado de h3 a h1 para cumplir con la regla: "Page should contain a level-one heading" -->
+      <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    </div>
+  </main>
+</body>
+</html>
+
+<!-- ojo me comentan que en el CSS de .container el margin right de -50% no tiene ningún efecto, y así es de hecho, pero como lo copié de stack overflow y al fin y al cabo la imagen está centrada, lo mantengo -->
